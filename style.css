@@ -122,13 +122,6 @@ box-shadow:0 0 20px #38bdf8;
 transform:translateY(-2px);
 }
 
-/* IMAGE */
-
-.hero-img img{
-width:260px;
-border-radius:50%;
-border:4px solid #38bdf8;
-}
 
 /* SECTION */
 
