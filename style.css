@@ -60,6 +60,11 @@ align-items:center;
 justify-content:space-between;
 padding:80px 10%;
 gap:40px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:520px;
 }
 
 .hero-text h1{
@@ -79,6 +84,19 @@ color:#cbd5f5;
 .hero-text p{
 max-width:500px;
 margin-bottom:25px;
+line-height:1.6;
+}
+
+.hero-buttons{
+display:flex;
+gap:15px;
+margin-top:10px;
+}
+
+.hero-img img{
+width:250px;
+border-radius:12px;
+object-fit:cover;
 }
 
 /* BUTTON */
