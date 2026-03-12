@@ -123,20 +123,18 @@ in HTML, CSS and JavaScript.
 <p>Location: Lucknow, India</p>
 </div>
 
-<form id="contact-form" class="contact-form">
+<form action="https://formspree.io/f/mojkdbbp" method="POST" class="contact-form">
 
 <div class="row">
-    <form action="https://formspree.io/f/mojkdbbp" method="post">
-<input type="text" name="name" placeholder="Your Name">
+<input type="text" name="name" placeholder="Your Name" required>
 
-<input type="email" name="email" placeholder="Your Email">
+<input type="email" name="email" placeholder="Your Email" required>
 </div>
 
-<textarea name="message" placeholder="Your Message"></textarea>
+<textarea name="message" placeholder="Your Message" required></textarea>
 
-<button type="submit" class="glow-btn" id="sendBtn">Send Message</button>
+<button type="submit" class="glow-btn">Send Message</button>
 
-</form>
 </form>
 
 </div>
